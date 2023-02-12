@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+}
+
+main > div{
+	width: 120vh;
+	height: 85vh;
+	background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0px 0px 40px 2px rgba(0, 0, 20, 0.4);
+	overflow: hidden;
+}
+
+#title{
+	padding: 5em 0 2em 0;
+	width: 6em;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#title > h1{
+	font-family: blackjack;
+	color: rgb(50, 50, 70);
+	font-size: 4rem;
+	font-family: 'Anton', sans-serif;
+	text-shadow: 0px 0px 25px rgba(0, 0, 20, 0.25);
+	user-select: none;
+}
+
+#rate-wrpr{
+	width: calc(24vw - 8em);
+	display: flex;
+	flex-direction: column;
+	padding: 0 4em;
+}
+
+#rate-wrpr > h5{
+	font-family: operator mono;
+	font-weight: 400;
+	font-size: 1em;
+	color: rgb(75, 75, 95);
+	padding: 0.1em 0;
+	text-shadow: 0px 0px 10px rgba(0, 0, 20, 0.25);
+}
+
+#rate-wrpr > div{
+	height: 26px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#rate-wrpr > div > h2{
+	width: max-content;
+	padding-right: 0.5em;
+	font-family: Arial;
+	color: rgb(50, 50, 70);
+	font-size: 1.4em;
+	text-shadow: 0px 0px 10px rgba(0, 0, 20, 0.25);
+	vertical-align: middle;
+}
+
+#rate-wrpr > div > span{
+	width: max-content;
+	height: 25px;
+	background-color: rgb(255, 0, 0);
+	color: rgb(50, 50, 70);
+	border: 1px solid rgba(100, 200, 110, 1.0);
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+
+#rate-wrpr > div > span > h4{
+	font-family: Arial;
+	line-height: 17px;
+	padding: 0em 0.5em;
+}
+
+#inputs-wrpr{
+	width: 34rem;
+	padding: 2em 4em;
+	display: flex;
+}
+
+#inputs-wrpr > span{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+#inputs-wrpr > span > div{
+	display: flex;
+	flex-direction: column;
+	width: 175px;
+}
+
+#inputs-sub-wrpr{
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: flex-end;
+}
+
+#inputs-wrpr > div{
+	flex: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#inputs-wrpr > div > div{
+	height: 40px;
+	width: 40px;
+	background: url("../icons/Sorting_Arrows_48px.png") no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#inputs-wrpr > span > select, #inputs-wrpr > span > div > select{
+	font-family:Arial;
+	width: 60px;
+	padding: 0.3em;
+	font-size: 0.9em;
+	background: rgba(255, 255, 255, 0.9);
+	outline: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	border: none;
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 20, 0.15);
+}
+
+#inputs-wrpr > span > input, #inputs-wrpr > span > div > input{
+	font-family: Arial;
+    width: calc(240px - 0.5em);
+    padding: 0.5em 10px 0.5em 0.5em;
+    font-size: 1.1em;
+    margin: 1.5em 0 0 0;
+    background: rgba(255, 255, 255, 1);
+    outline: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+	border: none;
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 20, 0.15);
+}
+
+#inputs-wrpr > span > input:focus, #inputs-wrpr > span > select:focus, #inputs-wrpr > span > div > select:focus{
+	outline-color: rgb(221, 0, 0);
+}
+
+main > div > div:last-child{  
+	width: calc(40vw - 8em);
+    padding: 0em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div > div:last-child > button{
+	width: 50%;
+	height: 40px;
+	background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+	border: 2px solid rgba(50, 50, 70, 0.25);
+	border-radius: 50px;
+	font-family: Arial;
+	font-size: 1.1em;
+	font-weight: 550;
+	color: rgb(255, 255, 255);
+	color: rgb(255, 0, 68);
+	cursor: pointer;
+	box-shadow: 0px 0px 15px 1px rgba(0, 0, 20, 0.2);
+}
+
+main > div > div:last-child > button:hover{
+	filter: brightness(0.95);
+}
