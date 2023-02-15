@@ -66,18 +66,6 @@ public class Main {
 				label.addMouseListener(new MouseListener() {
 					
 					@Override
-					public void mouseReleased(MouseEvent e) {}
-					
-					@Override
-					public void mousePressed(MouseEvent e) {}
-					
-					@Override
-					public void mouseExited(MouseEvent e) {}
-					
-					@Override
-					public void mouseEntered(MouseEvent e) {}
-					
-					@Override
 					public void mouseClicked(MouseEvent e) {
 						if (enabled) {
 							if (label.getText().toString().equals(" ")) {
