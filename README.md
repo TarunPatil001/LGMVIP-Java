@@ -28,3 +28,12 @@ Java, Java Swing, Java AWT, and OOPS
 ##### 💻 Project Description :
 A Scientific calculator built using Java is a general-purpose application whose primary objective is to perform basic mathematical operations and also perform some essential and tricky solutions to trigonometric functions, logarithms, etc.
 
+#### 🔰Task-5 - Text Editor 📝
+
+##### 🚀 Technologies Required :
+Java, Java Swing, Java AWT, JTextArea, JMenuBar, JMenu, and JMenuItems.
+
+##### 💻 Project Description :
+A Text Editor built using Java uses JTextArea, JMenu, JMenuItems, and JMenuBar to perform various tasks. It allows the user to enter, change, store, and print text. It also has a file menu to make changes in files (like open, save, close, and print) for future reference. and an edit menu to cut, copy and paste texts. Also, it has a “Save and Submit” button to close the file after saving the data. An actionListener is also used to detect actions in the project.
+
+
